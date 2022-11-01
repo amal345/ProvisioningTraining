@@ -1,0 +1,19 @@
+Meta tag : In the header tag all the meta data will be there (meta data is called data above the data). 
+           The meta tag is used to embedded the additional information in the header file. 
+           additional information contain encrypting the data.
+
+java have both intrperter and compiler because java is platform independent.
+
+javascript:
+
+    javascript is the interprted language. Browser will execute the javascript. javascript is the client side script
+    javascript is dynamic type language.
+    variable declaration i javascript by using keyword 'var'.
+    SYNTAX = >
+        
+        var variablename;
+   
+    Example = >
+
+        var x;
+        x='hello';

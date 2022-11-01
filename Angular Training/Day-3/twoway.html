@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script type="text/javascript" src="js/oneway.js"></script>
+        <title>Document</title>
+    </head>
+    <body ng-app="twoway">
+
+        <div ng-controller="emptwoway">
+            value of x={{x}}
+            value of y={{y}}
+            <input type="text" name="" id="" ng-model="x">
+            value of x={{::x}}
+            <input type="text" name="" id="" ng-model="y">
+            <button ng-click="sum()">calculate</button>
+            <p ng-bind="s"></p>
+        </div>
+
+    </body>
+</html>

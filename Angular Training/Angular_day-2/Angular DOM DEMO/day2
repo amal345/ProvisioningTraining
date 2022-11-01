@@ -1,0 +1,42 @@
+Angular is client side framework. 
+Angular is the advanced version of the javascript.
+framework is the collection of the tools.
+SPA-(Single Page Application).
+MVC Architecture(Model View Controller).
+Angular is maintained and support by the google.
+Typescript is the compiled version of the javascript. 
+It executed outside the browser.
+
+NPM PACKAGE:
+
+Syntax =>
+
+        npm install <Package Name>
+
+Example =>
+
+        npm install bootstrap
+
+Npm package installed in two type that are global and local
+
+Global insrtallation Syntax =>
+
+        npm install -global <Package Name>
+
+
+command: =>
+
+npm install jquery
+
+npm install -g @angular/cli
+
+ssl 
+
+npm config set strict-ssl false
+
+
+ng new Gadgeon
+
+ng serve
+
+Angular cdn: <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
